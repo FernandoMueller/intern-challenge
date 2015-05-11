@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "proximanovacond-regular";
+    src: url("/home/mueller/Code/intern-challenge/prototype/fonts/proximanovacond-regular.woff");
+}
+
+@font-face {
+    font-family: "proximanova-regular";
+    src: url("/home/mueller/Code/intern-challenge/prototype/fonts/proximanova-regular.woff");
+}
+
+body{
+	font-family: "proximanova-regular";
+	color: #385A7C;
+	background-color: #f1f4f9;
+}
+
+.header-top{
+	top:0;
+	left:0;
+	position:absolute;
+	width: 100%;
+	height: 40px;
+    background-color:#2687e9;
+}
+
+.logo-top{
+	margin-top: 15px;
+}
+
+.breadcrumb ul{
+	margin-top: 80px;
+	padding: 0;
+}
+
+.breadcrumb li{
+	font-size: 12px;
+	display:inline-block;
+	letter-spacing: 0.05em;
+}
+
+.container{
+	width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.breadcrumb li a{
+	color:#2687e9;
+}
+
+.bankAccount{
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+	height: 620px;
+	background:#fcfdfe;
+	border: 2px solid #c9d3dd;
+	color: #385A7C;
+}
+
+h3{
+	font-family: "proximanovacond-regular";
+	margin-top: 45px;
+	font-size: 25px;
+	margin-bottom: 30px;
+	font-weight: lighter;
+}
+
+.content{
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nameBank input{
+	text-indent: 10px;
+	color:#385a7b;
+	height: 40px;
+	width:300px;
+	border: 2px solid #c9d3dd;
+	border-radius: 4px;
+}
+
+.nameBank p{
+	margin-top: 40px;
+}
+
+input [placeholder]{
+	color:#c9d3dd;	
+}
+
+.description input{
+	text-indent: 10px;
+	color:#385a7b;
+	height: 40px;
+	width: 540px;
+	border: 2px solid #c9d3dd;
+	border-radius: 4px;
+}
+
+.initialValue input{
+	text-indent: 10px;
+	color:#385a7b;
+	height: 40px;
+	width: 300px;
+	border: 2px solid #c9d3dd;
+	border-radius: 4px;
+}
+
+.line {
+	border: 1px solid #c9d3dd;
+	margin-top: 35px;
+	opacity: 0.5;	
+}
+
+.accountType{
+	position: relative;
+	margin-left: 400px;
+	margin-top: -90px;
+}
+
+.form{
+	padding: 10px 5px 0 0;
+}
+
+.description{
+	margin-top: 40px;
+
+}
+
+.initialValue p{
+	margin-top: 40px;
+}
+
+.row{
+	font-size: 100%;
+	margin-top: -20px;
+	float: left;
+}
+
+.date{
+	float: left;
+	margin-left: 20px;
+}
+
+.balance{
+	float: left;
+}
+
+.row-buttons{
+	font-size: 100%;
+	margin-top: 40px;
+	font-size: 12px;
+}
+
+.buttonCancel{
+	width: 120px;
+	height: 40px;
+	color: #385a7b;
+	background-color: #fcfdfe;
+	border: 2px solid #c9d3dd;
+	border-radius: 4px;
+}
+
+.buttonCancel:hover {
+	opacity: 0.7;
+}
+
+.saveAndAddOther{
+	width: 300px;
+	height: 40px;
+	margin-left: 360px;
+	color: #385a7b;
+	background-color: #fcfdfe;
+	border: 2px solid #c9d3dd;
+	border-radius: 4px;
+}
+
+.saveAndAddOther:hover {
+	opacity: 0.7;
+}
+
+.save{
+	float: right;
+	height: 40px;
+	width: 140px;
+	background-color: #4aba58;
+	color: #fcfdfe;
+	border-radius: 4px;	
+	border: 2px solid #4aba58;
+}
+
+.save:hover {
+	opacity: 0.7;
+}
+
+.line-footer{
+	margin-top: 40px;
+	border: 1px solid #c9d3dd;
+	opacity: 0.6;
+}
+
+.footer{
+	text-align: center;
+}
+
+.logo-footer{
+	margin-top: 20px;
+}
